@@ -1,6 +1,7 @@
 # License Plate Enhancement - From TV shows to reality 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
+Author: Zixuan Zhang, Chengxuan Cai
 ## Welcom to LicenseEnhancer 
 
 In Hollywood crimes movies we often see detectives solving crimes with the help from one of 
