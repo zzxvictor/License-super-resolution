@@ -8,8 +8,10 @@ from dask.diagnostics import ProgressBar
 from typing import Tuple
 from PIL import Image
 
+
 '''
-    read in images from disk
+    crop license plates from stree views and resize all plates to the same shape 
+    
 '''
 # Dataset statistics that I gathered in development
 # This can be used to partially filter out bad images with low perceptual quality

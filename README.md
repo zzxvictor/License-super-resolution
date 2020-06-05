@@ -17,8 +17,9 @@ The project is inspired by several state-of-the-art SRSR models such as:
 * [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158)
 
 The dataset used in this project is called the [Chinese City Parking Dataset](https://github.com/detectRecog/CCPD), a large-scale collection of plate images in 
-various conditions. 
+various conditions.  
 
+Read my post on [Medium](https://towardsdatascience.com/license-plate-image-enhancement-5a170475bec1) for further understanding
 ## Gallery 
 ![gallery](Misc/Gallery.jpg)
 
@@ -34,6 +35,8 @@ Training & Evaluation
 
 ## Pipeline
 ![pipeline](Misc/Pipeline.jpg)
+Before training the model it is important to preprocess the raw dataset using the preprocess.py script
+
 
 ## Model Architecture
 Our plate enhancer model is trained in an adversarial fashion(GAN), meaning the generator is trained to create realistic 
